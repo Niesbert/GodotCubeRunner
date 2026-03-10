@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://0qry02e3wku0"]
+
+[node name="Test_Level" type="Node2D"]
+
+[node name="Background" type="ColorRect" parent="."]
+offset_right = 209.0
+offset_bottom = 206.0
+color = Color(0, 0.5529412, 1, 1)
