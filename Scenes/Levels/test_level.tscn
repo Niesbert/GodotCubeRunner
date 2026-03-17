@@ -1,10 +1,10 @@
 [gd_scene load_steps=5 format=4 uid="uid://0qry02e3wku0"]
 
-[ext_resource type="Texture2D" uid="uid://4vmxxil6lkfi" path="res://New Piskel (2).png" id="1_gojnm"]
-[ext_resource type="PackedScene" uid="uid://vb8ea0jtha1r" path="res://player.tscn" id="2_1c2mv"]
+[ext_resource type="Texture2D" uid="uid://4vmxxil6lkfi" path="res://Assets/New Piskel (2).png" id="1_b07c4"]
+[ext_resource type="PackedScene" uid="uid://vb8ea0jtha1r" path="res://Scenes/Player/player.tscn" id="2_2ytpj"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1c2mv"]
-texture = ExtResource("1_gojnm")
+texture = ExtResource("1_b07c4")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:0/0 = 0
@@ -27,5 +27,5 @@ color = Color(0, 0.5529412, 1, 1)
 tile_map_data = PackedByteArray("AAAAAAsAAAABAAAAAAABAAsAAAABAAAAAAACAAsAAAABAAAAAAADAAsAAAABAAAAAAAEAAsAAAABAAAAAAAFAAsAAAABAAAAAAAGAAsAAAABAAAAAAAHAAsAAAABAAAAAAAIAAsAAAABAAAAAAAJAAsAAAABAAAAAAAKAAsAAAABAAAAAAALAAsAAAABAAAAAAALAAoAAAABAAAAAAAMAAoAAAABAAAAAAANAAkAAAABAAAAAAAOAAkAAAABAAAAAAAHAAoAAAAAAAEAAAANAAgAAAAAAAEAAAAPAAkAAAAAAAAAAAAQAAkAAAAAAAAAAAARAAkAAAABAAAAAAARAAgAAAABAAAAAAARAAcAAAABAAAAAAAKAAcAAAABAAAAAAAJAAcAAAABAAAAAAAIAAcAAAABAAAAAAAPAAUAAAABAAAAAAAOAAUAAAABAAAAAAANAAUAAAABAAAAAAAEAAYAAAABAAAAAAADAAYAAAABAAAAAAACAAYAAAABAAAAAAABAAYAAAABAAAAAAA=")
 tile_set = SubResource("TileSet_f7g2b")
 
-[node name="Player" parent="." instance=ExtResource("2_1c2mv")]
+[node name="Player" parent="." instance=ExtResource("2_2ytpj")]
 position = Vector2(25, 155)
