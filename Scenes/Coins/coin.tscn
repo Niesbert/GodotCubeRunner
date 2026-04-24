@@ -1,3 +1,18 @@
-[gd_scene format=3 uid="uid://d3sl3njr67b8x"]
+[gd_scene load_steps=4 format=3 uid="uid://d3sl3njr67b8x"]
 
-[node name="Coin" type="Node2D"]
+[ext_resource type="Script" uid="uid://pnmtclk5r75j" path="res://Scenes/Coins/coin.gd" id="1_a5nxp"]
+[ext_resource type="Texture2D" uid="uid://rhd432equlxp" path="res://Assets/New Piskel (3).png" id="1_mlvfy"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ehp4i"]
+radius = 11.0
+
+[node name="Coin" type="Area2D"]
+script = ExtResource("1_a5nxp")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_mlvfy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_ehp4i")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

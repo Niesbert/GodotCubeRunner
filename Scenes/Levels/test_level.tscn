@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=4 uid="uid://0qry02e3wku0"]
+[gd_scene load_steps=8 format=4 uid="uid://0qry02e3wku0"]
 
 [ext_resource type="Texture2D" uid="uid://4vmxxil6lkfi" path="res://Assets/New Piskel (2).png" id="1_b07c4"]
 [ext_resource type="PackedScene" uid="uid://vb8ea0jtha1r" path="res://Scenes/Player/player.tscn" id="2_2ytpj"]
 [ext_resource type="PackedScene" uid="uid://b4hr82wdfjx5p" path="res://boundaries.tscn" id="3_2ytpj"]
 [ext_resource type="PackedScene" uid="uid://ctihhse7atlko" path="res://background.tscn" id="4_db73o"]
+[ext_resource type="PackedScene" uid="uid://d3sl3njr67b8x" path="res://Scenes/Coins/coin.tscn" id="5_npfmg"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1c2mv"]
 texture = ExtResource("1_b07c4")
@@ -33,3 +34,8 @@ position = Vector2(216, 168)
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 tile_map_data = PackedByteArray("AAAAABMAAAABAAAAAAABABMAAAABAAAAAAACABMAAAABAAAAAAADABMAAAABAAAAAAAEABMAAAABAAAAAAAFABMAAAABAAAAAAAGABMAAAAAAAAAAAAHABMAAAAAAAAAAAAIABMAAAAAAAAAAAAJABMAAAABAAAAAAAKABMAAAABAAAAAAALABMAAAABAAAAAAAMABMAAAABAAAAAAANABMAAAABAAAAAAAOABMAAAABAAAAAAAPABMAAAABAAAAAAAQABMAAAABAAAAAAARABMAAAABAAAAAAASABMAAAABAAAAAAATABMAAAABAAAAAAATABIAAAABAAAAAAASABIAAAABAAAAAAARABIAAAABAAAAAAAQABIAAAABAAAAAAAPABIAAAABAAAAAAAPABEAAAABAAAAAAAOABEAAAABAAAAAAAQABEAAAABAAAAAAARABEAAAABAAAAAAASABEAAAABAAAAAAATABEAAAABAAAAAAAOABIAAAABAAAAAAANABIAAAABAAAAAAASAA8AAAABAAAAAAARAA8AAAABAAAAAAAQAA8AAAABAAAAAAAMAA4AAAABAAAAAAALAA4AAAABAAAAAAAKAA4AAAABAAAAAAAGAA0AAAABAAAAAAAFAA0AAAABAAAAAAAEAA0AAAABAAAAAAADAA0AAAABAAAAAAADAAsAAAABAAAAAAACAAsAAAABAAAAAAABAAsAAAABAAAAAAAGAAkAAAABAAAAAAAHAAkAAAABAAAAAAAIAAkAAAABAAAAAAA=")
 tile_set = SubResource("TileSet_f7g2b")
+
+[node name="Coins" type="Node" parent="."]
+
+[node name="Coin1" parent="Coins" instance=ExtResource("5_npfmg")]
+position = Vector2(176, 222)
