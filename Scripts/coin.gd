@@ -2,5 +2,7 @@ extends Area2D
 
 func _on_body_entered(body: Node2D):
 	if body is Player:
-		print("Entered")
+		GameManager.addCoin()
+		queue_free()
+		print("coin!!!")
 	

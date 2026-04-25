@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://bh4fopssccrm8"]
+
+[ext_resource type="PackedScene" uid="uid://0qry02e3wku0" path="res://Scenes/Levels/Level_Functionality.tscn" id="1_e2ydg"]
+
+[node name="Level2" instance=ExtResource("1_e2ydg")]
+
+[node name="Coin1" parent="Coins" index="0"]
+position = Vector2(335, 358)
+
+[node name="Coin2" parent="Coins" index="1"]
+position = Vector2(143, 327)
+
+[node name="Coin3" parent="Coins" index="2"]
+position = Vector2(391, 443)
+
+[node name="Coin4" parent="Coins" index="3"]
+position = Vector2(527, 441)
