@@ -11,13 +11,17 @@
 texture = ExtResource("1_b07c4")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:0/0/custom_data_0 = true
 1:0/0 = 0
 1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 0:1/0 = 0
 0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, 3.687107, 0.17985916, -8, 8, 3.687107, 8, 8, -8, 8)
+0:1/0/custom_data_0 = true
 
 [sub_resource type="TileSet" id="TileSet_f7g2b"]
 physics_layer_0/collision_layer = 1
+custom_data_layer_0/name = "is_deadly"
+custom_data_layer_0/type = 1
 sources/0 = SubResource("TileSetAtlasSource_1c2mv")
 
 [node name="Test_Level" type="Node2D"]
