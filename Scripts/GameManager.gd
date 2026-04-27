@@ -1,5 +1,5 @@
 extends Node
-var currentLevel = 2
+var currentLevel = 1
 var LevelPath = "res://Scenes/Levels/Levels/"
 var coinsCollected = 0
 var respawn_point: Vector2 = Vector2.ZERO
