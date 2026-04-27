@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Cube Runner in Godot"
-run/main_scene="uid://dnwn6k0plfthb"
+run/main_scene="uid://d4ejudf2muhs6"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://Assets/icon.svg"
 

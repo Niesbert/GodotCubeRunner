@@ -4,6 +4,12 @@ var LevelPath = "res://Scenes/Levels/Levels/"
 var coinsCollected = 0
 var respawn_point: Vector2 = Vector2.ZERO
 
+
+
+func startGame():
+	var allLevels = LevelPath + "level_" +  str(currentLevel) + ".tscn"
+	get_tree().change_scene_to_file(allLevels)
+
 func ready():
 	resetCoins()
 

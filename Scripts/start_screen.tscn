@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://d4ejudf2muhs6"]
+
+[ext_resource type="Script" uid="uid://d0qqv7vcvr8ro" path="res://Scenes/StartEndScene/start_screen.gd" id="1_cpxg7"]
+
+[node name="StartScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_cpxg7")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 194.0
+offset_top = 250.0
+offset_right = 294.0
+offset_bottom = 281.0
+text = "Start Game!"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

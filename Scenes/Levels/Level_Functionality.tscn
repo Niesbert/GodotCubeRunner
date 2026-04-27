@@ -2,8 +2,8 @@
 
 [ext_resource type="Texture2D" uid="uid://4vmxxil6lkfi" path="res://Assets/New Piskel (2).png" id="1_b07c4"]
 [ext_resource type="PackedScene" uid="uid://vb8ea0jtha1r" path="res://Scenes/Player/player.tscn" id="2_2ytpj"]
-[ext_resource type="PackedScene" uid="uid://b4hr82wdfjx5p" path="res://boundaries.tscn" id="3_2ytpj"]
-[ext_resource type="PackedScene" uid="uid://ctihhse7atlko" path="res://background.tscn" id="4_db73o"]
+[ext_resource type="PackedScene" uid="uid://b4hr82wdfjx5p" path="res://Scenes/Bacground&Boundaries/boundaries.tscn" id="3_2ytpj"]
+[ext_resource type="PackedScene" uid="uid://ctihhse7atlko" path="res://Scenes/Bacground&Boundaries/background.tscn" id="4_db73o"]
 [ext_resource type="PackedScene" uid="uid://c5aymslqtqhdx" path="res://Scenes/StartEndScene/end.tscn" id="5_k8g1k"]
 [ext_resource type="PackedScene" uid="uid://d3sl3njr67b8x" path="res://Scenes/Coins/coin.tscn" id="5_npfmg"]
 
